@@ -55,7 +55,7 @@ body {
   z-index: 10;
 }
 
-.wrapper {
+.wrapper, .wrapperS, .wrapperP, .wrapperC {
   background:#ff4800;
   opacity: 1;
   position: absolute;
@@ -66,13 +66,17 @@ body {
   margin-top: -200px;
   overflow: hidden;
 }
-.container {
+.container, .containerS, .containerP, .containerC {
   max-width: 600px;
   margin: 0 auto;
   padding: 80px 0;
   height: 400px;
   text-align: center;
 }
+ .wrapperS, .wrapperP, .wrapperC {
+  display: none;
+}
+
 .inputForm {
   padding: 20px 0;
   position: relative;

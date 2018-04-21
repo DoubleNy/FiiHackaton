@@ -1,3 +1,19 @@
+function redirect(){
+
+    if(document.getElementById("student").checked == true) {
+          $(".wrapper").hide();
+          $(".wrapperS").css("display", "block");
+    }
+    if(document.getElementById("profesor").checked == true) {
+          $(".wrapper").hide();
+          $(".wrapperP").css("display", "block");
+    }
+    if(document.getElementById("corporation").checked == true){
+          $(".wrapper").hide();
+          $(".wrapperC").css("display", "block");
+    }
+}
+
 function sleep(milliseconds) {
   var start = new Date().getTime();
   for (var i = 0; i < 1e7; i++) {
